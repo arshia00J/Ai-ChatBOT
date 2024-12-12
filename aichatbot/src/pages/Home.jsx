@@ -45,10 +45,13 @@ export default function Home() {
           <h1 className="text-4xl leading-loose font-bold bg-gradient-to-l from-[#00F5B5] to-[#051320] bg-clip-text text-transparent">
             Chat bot AI
           </h1>
-          <button className="font-semibold gap-1 text-white flex items-center h-14 justify-center w-40 bg-green-400 py-2 rounded-full">
-            <img src="/plus.png" alt="plus" width={24} />
-            <p>New Topic</p>
-          </button>
+
+          <Link>
+            <button className="font-semibold gap-1 text-white flex items-center h-14 justify-center w-40 bg-green-400 py-2 rounded-full">
+              <img src="/plus.png" alt="plus" width={24} />
+              <p>New Topic</p>
+            </button>
+          </Link>
         </div>
       </div>
 
