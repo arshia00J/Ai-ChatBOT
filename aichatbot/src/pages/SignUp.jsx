@@ -12,7 +12,7 @@ export default function SignUp() {
     e.preventDefault();
 
     if (name == "" || email == "" || password == "") {
-      alert("Name, Emain, Password is Empty!");
+      alert("Name, Email, Password is Empty!");
       return;
     }
 
