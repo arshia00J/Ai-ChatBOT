@@ -46,7 +46,7 @@ export default function Home() {
             Chat bot AI
           </h1>
 
-          <Link>
+          <Link to={"/chats"}>
             <button className="font-semibold gap-1 text-white flex items-center h-14 justify-center w-40 bg-green-400 py-2 rounded-full">
               <img src="/plus.png" alt="plus" width={24} />
               <p>New Topic</p>
